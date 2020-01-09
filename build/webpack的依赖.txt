@@ -1,0 +1,42 @@
+1、实现了vue写法，多入口多页面，单个页面可称为一个SPA
+2、实现了打包环境区分打包内容
+3、实现了公共文件打包
+4、实现了js、css模块化
+5、实现了es6转es5
+
+yarn add --dev 
+
+
+cross-env    //系统环境变量根据这个判断是本地还是生产环境
+@babel/core  //这个东西要用cnpm装
+copy-webpack-plugin  //复制assets文件夹到dist
+html-webpack-plugin 
+webpack 
+webpack-cli 
+webpack-dev-server 
+webpack-merge 
+vue-template-compiler 
+vue-loader url-loader 
+thread-loader 
+style-loader 
+postcss-loader 
+mini-css-extract-plugin 
+less-loader 
+less 
+image-webpack-loader 
+html-loader 
+file-loader 
+css-loader 
+clean-webpack-plugin 
+babel-preset-es2015 
+babel-loader 
+babel-core 
+autoprefixer 
+@babel/preset-env
+cache-loader
+
+必须的生产环境配置
+yarn add
+
+
+vue
