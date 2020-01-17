@@ -2,6 +2,7 @@
   <div class="container">
     <Header />
     <h1>登录界面</h1>
+    <a href="./index.html">回首页</a>
     <Footer />
   </div>
 </template>

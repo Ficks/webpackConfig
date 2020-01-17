@@ -15,7 +15,12 @@ module.exports = merge (webpackBase, {
         test: /\.(le|c)ss$/,
         use: [
           'style-loader',
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../../', //解决了css引用路径问题
+            },
+          },
           {
             loader: 'css-loader',
             options: {

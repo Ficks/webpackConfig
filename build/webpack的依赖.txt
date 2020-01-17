@@ -10,6 +10,7 @@ yarn add --dev
 cross-env    //系统环境变量根据这个判断是本地还是生产环境
 @babel/core  //这个东西要用cnpm装
 copy-webpack-plugin  //复制assets文件夹到dist
+optimize-css-assets-webpack-plugin //压缩css
 html-webpack-plugin 
 webpack 
 webpack-cli 

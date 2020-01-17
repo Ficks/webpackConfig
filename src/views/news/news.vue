@@ -1,19 +1,20 @@
 <template>
   <div class="container">
     <Header />
-    <h1>哈哈</h1>
-    <a href="./login.html">去登录</a>
-    <a href="./news.html">去看新闻</a>
-    <div class="img"><img src="../../assets/images/timg.jpg" alt=""></div>
+    <h1>新闻界面</h1>
+    <a href="./index.html">回首页</a>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
 export default {
-  name: 'index',
+  name: 'login',
   components: {
     Header,
+    Footer,
   },
   data() {
     return {};
@@ -25,6 +26,6 @@ export default {
 
 <style lang="less" scoped>
 h1{
-    color: #f00;
+    color: #0f0;
 }
 </style>
