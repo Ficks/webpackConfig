@@ -70,8 +70,8 @@ module.exports = merge (webpackBase, {
   plugins: [
     new CleanWebpackPlugin (), // 打包前，先将dist文件中的内容全部清除
     new MiniCssExtractPlugin ({
-      filename: 'static/css/[name][hash].css', ////都提到build目录下的css目录中
-      chunkFilename: '[id][hash].css',
+      filename: 'static/css/[name][hash].css', //都提到dist目录下的css目录中
+      chunkFilename: 'static/css/[id][hash].css', //公告css提取
     }),
 
     new OptimizeCSSAssetsPlugin ({
